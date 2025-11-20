@@ -1,3 +1,4 @@
+<img width="1917" height="967" alt="Screenshot 2025-11-20 192851" src="https://github.com/user-attachments/assets/0f32b61b-9cf7-4b4e-bbe4-726f759e37d4" />
 # GETSTAC - DEMO
 
 Brief description of what your project does.
@@ -68,7 +69,7 @@ public/                # Static assets
 ```
 Escalate an Issue Dialog
 ```
-<img width="1906" height="919" alt="Escalate an Issue dialog image" src="https://github.com/user-attachments/assets/7f020a65-f258-46eb-814f-9ebb9a80248e" />
+<img width="1906" height="919" alt="Screenshot 2025-11-20 191819" src="https://github.com/user-attachments/assets/e027af88-6be6-42e1-98c4-f2d2d266b345" />
 
 ```
 Dashboard Homepage
@@ -84,6 +85,7 @@ Manage location page
 Auth Page
 ```
 <img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/51167e3e-f74a-45ec-95ae-e349c82f838a" />
+
 
 
 
