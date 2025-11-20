@@ -5,7 +5,7 @@ import { Row } from "@/components/resuables/layout-resuable";
 const LocationStat = () => {
   const data = [
     {
-      title: "TOTAL ACTIVE LCOATIONS",
+      title: "TOTAL ACTIVE LOCATIONS",
       amount: "66",
     },
     {
