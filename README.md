@@ -64,6 +64,13 @@ src/
   └── types/           # TypeScript type definitions
 public/                # Static assets
 ```
+## Excerpts from the Project
+```
+Escalate an Issue Dialog
+```
+<img width="1906" height="919" alt="image" src="https://github.com/user-attachments/assets/7f020a65-f258-46eb-814f-9ebb9a80248e" />
+
+
 
 ## Scripts
 
