@@ -48,7 +48,7 @@ const Header = () => {
           <Button className="hidden sm:flex" variant="ghost">
             <Bell className="w-8 h-8" />
           </Button>
-          <SidebarTrigger className="w-2 h-2 sm:hidden" />
+          <SidebarTrigger className="w-2 h-2 md:hidden" />
         </Row>
         <EscalateDialog
           onClose={() => setIsDialogOpen(false)}

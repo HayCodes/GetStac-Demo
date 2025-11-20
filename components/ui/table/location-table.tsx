@@ -82,7 +82,7 @@ export const tableData = [
 
 export const LocationTable = (): JSX.Element => {
   return (
-    <div className="w-full mx-auto bg-white border max-w-lg lg:max-w-2xl scrollbar-hide xl:max-w-full overflow-x-auto">
+    <div className="w-full mx-auto bg-white border max-w-lg sm:max-w-full md:max-w-lg lg:max-w-2xl scrollbar-hide xl:max-w-full overflow-x-auto">
       <Table>
         <TableHeader className="rounded-t-2xl">
           <TableRow className="bg-[#242440] border-b hover:bg-[#242440] scrollbar-hide">

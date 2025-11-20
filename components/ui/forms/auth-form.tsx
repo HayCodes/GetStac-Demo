@@ -19,6 +19,9 @@ import {
   FormLabel,
   FormMessage,
 } from "../form";
+import { useRouter } from "next/navigation";
+import { Routes } from "@/core/routing";
+import { toast } from "sonner";
 
 type SignInSchema = z.infer<typeof signInSchema>;
 
@@ -38,10 +41,12 @@ const AuthForm = () => {
       password: "",
     },
   });
+  const router = useRouter();
 
   const onSubmit = async (data: SignInSchema) => {
-    //    await handleSignIn(data.email, data.password);
-    console.log("Sign In Data:", data);
+    console.log("Sign-in data:", data);
+    toast.success("Signed in successfully!");
+    router.push(Routes.dashboard);
   };
 
   return (
