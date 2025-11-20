@@ -10,7 +10,7 @@ const inter = Inter({
 
 export const viewport: Viewport = {
   initialScale: 1,
-  userScalable: false,
+  // userScalable: false,
   width: "device-width",
   interactiveWidget: "resizes-content",
   viewportFit: "cover",
