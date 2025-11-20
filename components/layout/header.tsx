@@ -37,7 +37,7 @@ const Header = () => {
 
         <Row className="gap-3 items-center">
           <Button
-            className="flex gap-2 p-2 text-xs items-center"
+            className="flex gap-2 p-2 text-xs items-center text-white"
             variant="default"
             size="sm"
             onClick={() => setIsDialogOpen(!isDialogOpen)}

@@ -22,10 +22,8 @@ const EscalateDialog = ({ onClose, isOpen }: EscalateDialogProps) => {
     <Dialog onOpenChange={onClose} open={isOpen}>
       <DialogContent className="sm:max-w-lg">
         <DialogHeader>
-          <DialogTitle>
-            <Button className="border" size="icon" variant="ghost">
-              <User2 className="w-12 h-12" />
-            </Button>
+          <DialogTitle className="p-3 border rounded-md w-fit">
+            <User2 className="w-7 h-7" />
           </DialogTitle>
         </DialogHeader>
         <Column className="gap-3">
@@ -54,7 +52,11 @@ const EscalateDialog = ({ onClose, isOpen }: EscalateDialogProps) => {
         <DialogFooter className="mt-5">
           <Column className="w-full">
             <a href="mailto:candice.ademide@getstac.com">
-              <Button className="bg-primary w-full" variant="default" size="lg">
+              <Button
+                className="bg-primary w-full text-white"
+                variant="default"
+                size="lg"
+              >
                 Send an email
               </Button>
             </a>

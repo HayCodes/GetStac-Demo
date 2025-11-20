@@ -37,13 +37,14 @@ const LocationsContent = () => {
               {filters.map((filter, index) => (
                 <div
                   key={index}
-                  className="flex items-center gap-2 bg-primary-foreground rounded-md px-3 py-1.5 border text-primary font-semibold cursor-pointer"
+                  className="flex items-center gap-2 bg-primary-foreground rounded-md px-3 py-1 border text-primary cursor-pointer border-primary-foreground font-semibold"
                 >
                   <span className="text-sm text-gray-700">{filter}</span>
                   <Button
                     onClick={() => removeFilter(index)}
-                    className="hover:bg-gray-100 p-0.5 rounded"
+                    className="hover:bg-gray-100 p-0.5 rounded font-semibold"
                     variant="ghost"
+                    size="icon-sm"
                   >
                     <X className="w-4 h-4 text-gray-500" />
                   </Button>
@@ -52,7 +53,7 @@ const LocationsContent = () => {
 
               <Button
                 variant="outline"
-                className="gap-2 rounded bg-white"
+                className="gap-2 p-0.5 rounded-md bg-white"
                 size="lg"
               >
                 <Filter className="w-4 h-4" />
