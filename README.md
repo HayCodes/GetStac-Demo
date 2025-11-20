@@ -74,6 +74,7 @@ Escalate an Issue Dialog
 Dashboard Homepage
 ```
 <img width="1902" height="923" alt="Screenshot 2025-11-20 191753" src="https://github.com/user-attachments/assets/ee2201dc-db92-4974-b130-7de2985785d5" />
+
 ```
 Manage location page
 ```
