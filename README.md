@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GETSTAC - DEMO
 
-## Getting Started
+Brief description of what your project does.
 
-First, run the development server:
+## Setup
+
+### Prerequisites
+
+- Node.js 18+
+- yarn
+
+### Installation
+
+1. Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <https://github.com/HayCodes/GetStac-Demo.git>
+cd <getstac-demo>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Run the development server
 
-## Learn More
+```bash
+yarn dev
 
-To learn more about Next.js, take a look at the following resources:
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open [http://localhost:3000](http://localhost:3000) to see your app.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Tech Stack
 
-## Deploy on Vercel
+- **Framework**: Next.js (App Router)
+- **Styling**: Tailwind CSS
+- **Deployment**: Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Key Decisions & Tradeoffs
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Tailwind CSS for Styling
+
+- **Decision**: Tailwind CSS instead of CSS Modules or styled-components
+- **Why**: Faster development, smaller bundle size, consistent design system
+
+### Server Components by Default
+
+- **Decision**: Using React Server Components where possible
+- **Why**: Reduces JavaScript sent to client, improves performance, easier backend access
+- **Tradeoff**: Can't use browser hooks like useState in these components; requires different mental model
+
+## Project Structure
+
+```
+src/
+  ├── app/              # App Router pages and layouts
+  ├── components/       # Reusable React components
+  ├── core/             # Schemas and Routing assets
+  ├── lib/             # Utility functions and helpers
+  ├── hooks/           # Custom React hooks
+  └── types/           # TypeScript type definitions
+public/                # Static assets
+```
+
+## Scripts
+
+- `yarn dev` — Start development server
+- `yarn run build` — Build for production
+- `yarn start` — Run production build
+- `yarn lint --fix` — Run ESLint
+
+## Deployment
+
+This project is configured for Vercel deployment. Push to main branch to auto-deploy.
