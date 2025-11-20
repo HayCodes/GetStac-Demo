@@ -1,4 +1,4 @@
-<img width="1917" height="967" alt="Screenshot 2025-11-20 192851" src="https://github.com/user-attachments/assets/0f32b61b-9cf7-4b4e-bbe4-726f759e37d4" />
+
 # GETSTAC - DEMO
 
 Brief description of what your project does.
@@ -84,7 +84,7 @@ Manage location page
 ```
 Auth Page
 ```
-<img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/51167e3e-f74a-45ec-95ae-e349c82f838a" />
+<img width="1917" height="967" alt="Screenshot 2025-11-20 192851" src="https://github.com/user-attachments/assets/0f32b61b-9cf7-4b4e-bbe4-726f759e37d4" />
 
 
 
